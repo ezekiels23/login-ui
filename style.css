@@ -1,0 +1,37 @@
+.body {
+    background-color: bisque;
+}
+
+.parent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.child-item{
+    border: 2px solid;
+    border-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: bisque;
+    text-align: center;
+    box-shadow: 10px 10px rgb(211, 205, 205);
+}
+
+input{
+    margin: 5px;
+    min-width: 20%;
+}
+
+.forgotU {
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    align-self: center;
+}
